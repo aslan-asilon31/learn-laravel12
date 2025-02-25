@@ -25,6 +25,9 @@
     <link rel="stylesheet" href="{{ asset('frontend/assets/css/aos.css') }}">
     <!-- Main css -->
     <link rel="stylesheet" href="{{ asset('frontend/assets/css/main.css') }}">
+
+    @livewireStyles
+    @vite(['resources/js/app.js'])
 </head> 
 <body>
     
@@ -340,7 +343,7 @@
                                 <option value="1">Nevada</option>
                                 <option value="1">New Jersey</option>
                                 <option value="1">New Mexico</option>
-                                <option value="1">New York</option>
+                                <option value="1">Jakarta</option>
                             </select>
                         </div>
                     </div>
@@ -1083,7 +1086,7 @@
                     <div class="product-card__content mt-12">
                         <div class="product-card__price mb-16">
                             <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
-                            <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                            <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         </div>
                         <div class="flex-align gap-6">
                             <span class="text-xs fw-bold text-gray-600">4.8</span>
@@ -1117,7 +1120,7 @@
                     <div class="product-card__content mt-12">
                         <div class="product-card__price mb-16">
                             <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
-                            <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                            <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         </div>
                         <div class="flex-align gap-6">
                             <span class="text-xs fw-bold text-gray-600">4.8</span>
@@ -1151,7 +1154,7 @@
                     <div class="product-card__content mt-12">
                         <div class="product-card__price mb-16">
                             <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
-                            <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                            <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         </div>
                         <div class="flex-align gap-6">
                             <span class="text-xs fw-bold text-gray-600">4.8</span>
@@ -1185,7 +1188,7 @@
                     <div class="product-card__content mt-12">
                         <div class="product-card__price mb-16">
                             <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
-                            <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                            <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         </div>
                         <div class="flex-align gap-6">
                             <span class="text-xs fw-bold text-gray-600">4.8</span>
@@ -1219,7 +1222,7 @@
                     <div class="product-card__content mt-12">
                         <div class="product-card__price mb-16">
                             <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
-                            <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                            <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         </div>
                         <div class="flex-align gap-6">
                             <span class="text-xs fw-bold text-gray-600">4.8</span>
@@ -1253,7 +1256,7 @@
                     <div class="product-card__content mt-12">
                         <div class="product-card__price mb-16">
                             <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
-                            <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                            <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         </div>
                         <div class="flex-align gap-6">
                             <span class="text-xs fw-bold text-gray-600">4.8</span>
@@ -1294,7 +1297,7 @@
                         <div class="offer-card__logo mb-16 w-80 h-80 flex-center bg-white rounded-circle">
                             <img src="{{ asset('frontend/assets/images/img-new/offer-logo.png') }}" alt=""> 
                         </div>
-                        <h4 class="text-white mb-8">$5 off your first order</h4>
+                        <h4 class="text-white mb-8">Rp5 off your first order</h4>
                         <div class="flex-align gap-8">
                             <span class="text-sm text-white">Delivery by 6:15am</span>
                             <span class="text-sm text-main-two-600">expired Aug 5</span>
@@ -1316,7 +1319,7 @@
                         <div class="offer-card__logo mb-16 w-80 h-80 flex-center bg-white rounded-circle">
                             <img src="{{ asset('frontend/assets/images/img-new/offer-logo.png') }}" alt=""> 
                         </div>
-                        <h4 class="text-white mb-8">$5 off your first order</h4>
+                        <h4 class="text-white mb-8">Rp5 off your first order</h4>
                         <div class="flex-align gap-8">
                             <span class="text-sm text-white">Delivery by 6:15am</span>
                             <span class="text-sm text-main-two-600">expired Aug 5</span>
@@ -1382,7 +1385,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -1414,7 +1417,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -1446,7 +1449,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -1478,7 +1481,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -1509,7 +1512,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -1541,7 +1544,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -1572,7 +1575,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -1604,7 +1607,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -1636,7 +1639,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -1668,7 +1671,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -1700,7 +1703,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -1732,7 +1735,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -1767,7 +1770,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -1799,7 +1802,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -1831,7 +1834,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -1863,7 +1866,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -1894,7 +1897,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -1926,7 +1929,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -1957,7 +1960,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -1989,7 +1992,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -2021,7 +2024,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -2053,7 +2056,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -2085,7 +2088,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -2117,7 +2120,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -2152,7 +2155,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -2184,7 +2187,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -2216,7 +2219,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -2248,7 +2251,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -2279,7 +2282,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -2311,7 +2314,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -2342,7 +2345,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -2374,7 +2377,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -2406,7 +2409,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -2438,7 +2441,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -2470,7 +2473,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -2502,7 +2505,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -2537,7 +2540,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -2569,7 +2572,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -2601,7 +2604,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -2633,7 +2636,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -2664,7 +2667,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -2696,7 +2699,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -2727,7 +2730,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -2759,7 +2762,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -2791,7 +2794,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -2823,7 +2826,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -2855,7 +2858,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -2887,7 +2890,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -2922,7 +2925,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -2954,7 +2957,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -2986,7 +2989,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -3018,7 +3021,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -3049,7 +3052,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -3081,7 +3084,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -3112,7 +3115,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -3144,7 +3147,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -3176,7 +3179,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -3208,7 +3211,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -3240,7 +3243,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -3272,7 +3275,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -3307,7 +3310,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -3339,7 +3342,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -3371,7 +3374,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -3403,7 +3406,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -3434,7 +3437,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -3466,7 +3469,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -3497,7 +3500,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -3529,7 +3532,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -3561,7 +3564,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -3593,7 +3596,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -3625,7 +3628,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -3657,7 +3660,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -3692,7 +3695,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -3724,7 +3727,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -3756,7 +3759,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -3788,7 +3791,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -3819,7 +3822,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -3851,7 +3854,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -3882,7 +3885,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -3914,7 +3917,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -3946,7 +3949,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -3978,7 +3981,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -4010,7 +4013,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -4042,7 +4045,7 @@
 
                 <div class="product-card__content mt-12">
                     <div class="product-card__price mb-8">
-                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                     </div>
                     <div class="flex-align gap-6">
@@ -4128,7 +4131,7 @@
         
                                 <div class="product-card__content mt-12">
                                     <div class="product-card__price mb-8">
-                                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                                     </div>
                                     <div class="flex-align gap-6">
@@ -4160,7 +4163,7 @@
         
                                 <div class="product-card__content mt-12">
                                     <div class="product-card__price mb-8">
-                                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                                     </div>
                                     <div class="flex-align gap-6">
@@ -4192,7 +4195,7 @@
         
                                 <div class="product-card__content mt-12">
                                     <div class="product-card__price mb-8">
-                                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                                     </div>
                                     <div class="flex-align gap-6">
@@ -4224,7 +4227,7 @@
         
                                 <div class="product-card__content mt-12">
                                     <div class="product-card__price mb-8">
-                                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                                     </div>
                                     <div class="flex-align gap-6">
@@ -4256,7 +4259,7 @@
         
                                 <div class="product-card__content mt-12">
                                     <div class="product-card__price mb-8">
-                                        <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                                        <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                                         <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
                                     </div>
                                     <div class="flex-align gap-6">
@@ -4296,7 +4299,7 @@
                         <img src="{{ asset('frontend/assets/images/img-new/vendor-logo1.png') }}" alt="" class="vendor-card__logo m-12">
                         <h6 class="title mt-32">Organic Market</h6>
                         <span class="text-heading text-sm d-block">Delivery by 6:15am</span>
-                        <a href="shop.html" class="btn btn-main-two rounded-pill py-6 px-16 text-12 mt-8">$5 off Snack & Candy</a>
+                        <a href="shop.html" class="btn btn-main-two rounded-pill py-6 px-16 text-12 mt-8">Rp5 off Snack & Candy</a>
                     </div>
                     <div class="vendor-card__list mt-22 flex-center flex-wrap gap-8">
                         <div class="vendor-card__item bg-white rounded-circle flex-center">
@@ -4323,7 +4326,7 @@
                         <img src="{{ asset('frontend/assets/images/img-new/vendor-logo2.png') }}" alt="" class="vendor-card__logo m-12">
                         <h6 class="title mt-32">Safeway</h6>
                         <span class="text-heading text-sm d-block">Delivery by 6:15am</span>
-                        <a href="shop.html" class="btn btn-main-two rounded-pill py-6 px-16 text-12 mt-8">$5 off Snack & Candy</a>
+                        <a href="shop.html" class="btn btn-main-two rounded-pill py-6 px-16 text-12 mt-8">Rp5 off Snack & Candy</a>
                     </div>
                     <div class="vendor-card__list mt-22 flex-center flex-wrap gap-8">
                         <div class="vendor-card__item bg-white rounded-circle flex-center">
@@ -4350,7 +4353,7 @@
                         <img src="{{ asset('frontend/assets/images/img-new/vendor-logo3.png') }}" alt="" class="vendor-card__logo m-12">
                         <h6 class="title mt-32">Food Max</h6>
                         <span class="text-heading text-sm d-block">Delivery by 6:15am</span>
-                        <a href="shop.html" class="btn btn-main-two rounded-pill py-6 px-16 text-12 mt-8">$5 off Snack & Candy</a>
+                        <a href="shop.html" class="btn btn-main-two rounded-pill py-6 px-16 text-12 mt-8">Rp5 off Snack & Candy</a>
                     </div>
                     <div class="vendor-card__list mt-22 flex-center flex-wrap gap-8">
                         <div class="vendor-card__item bg-white rounded-circle flex-center">
@@ -4377,7 +4380,7 @@
                         <img src="{{ asset('frontend/assets/images/img-new/vendor-logo4.png') }}" alt="" class="vendor-card__logo m-12">
                         <h6 class="title mt-32">HRmart</h6>
                         <span class="text-heading text-sm d-block">Delivery by 6:15am</span>
-                        <a href="shop.html" class="btn btn-main-two rounded-pill py-6 px-16 text-12 mt-8">$5 off Snack & Candy</a>
+                        <a href="shop.html" class="btn btn-main-two rounded-pill py-6 px-16 text-12 mt-8">Rp5 off Snack & Candy</a>
                     </div>
                     <div class="vendor-card__list mt-22 flex-center flex-wrap gap-8">
                         <div class="vendor-card__item bg-white rounded-circle flex-center">
@@ -4404,7 +4407,7 @@
                         <img src="{{ asset('frontend/assets/images/img-new/vendor-logo5.png') }}" alt="" class="vendor-card__logo m-12">
                         <h6 class="title mt-32">Lucky Supermarket</h6>
                         <span class="text-heading text-sm d-block">Delivery by 6:15am</span>
-                        <a href="shop.html" class="btn btn-main-two rounded-pill py-6 px-16 text-12 mt-8">$5 off Snack & Candy</a>
+                        <a href="shop.html" class="btn btn-main-two rounded-pill py-6 px-16 text-12 mt-8">Rp5 off Snack & Candy</a>
                     </div>
                     <div class="vendor-card__list mt-22 flex-center flex-wrap gap-8">
                         <div class="vendor-card__item bg-white rounded-circle flex-center">
@@ -4431,7 +4434,7 @@
                         <img src="{{ asset('frontend/assets/images/img-new/vendor-logo6.png') }}" alt="" class="vendor-card__logo m-12">
                         <h6 class="title mt-32">Arico Farmer</h6>
                         <span class="text-heading text-sm d-block">Delivery by 6:15am</span>
-                        <a href="shop.html" class="btn btn-main-two rounded-pill py-6 px-16 text-12 mt-8">$5 off Snack & Candy</a>
+                        <a href="shop.html" class="btn btn-main-two rounded-pill py-6 px-16 text-12 mt-8">Rp5 off Snack & Candy</a>
                     </div>
                     <div class="vendor-card__list mt-22 flex-center flex-wrap gap-8">
                         <div class="vendor-card__item bg-white rounded-circle flex-center">
@@ -4458,7 +4461,7 @@
                         <img src="{{ asset('frontend/assets/images/img-new/vendor-logo7.png') }}" alt="" class="vendor-card__logo m-12">
                         <h6 class="title mt-32">Farmer Market</h6>
                         <span class="text-heading text-sm d-block">Delivery by 6:15am</span>
-                        <a href="shop.html" class="btn btn-main-two rounded-pill py-6 px-16 text-12 mt-8">$5 off Snack & Candy</a>
+                        <a href="shop.html" class="btn btn-main-two rounded-pill py-6 px-16 text-12 mt-8">Rp5 off Snack & Candy</a>
                     </div>
                     <div class="vendor-card__list mt-22 flex-center flex-wrap gap-8">
                         <div class="vendor-card__item bg-white rounded-circle flex-center">
@@ -4485,7 +4488,7 @@
                         <img src="{{ asset('frontend/assets/images/img-new/vendor-logo8.png') }}" alt="" class="vendor-card__logo m-12">
                         <h6 class="title mt-32">Foodsco</h6>
                         <span class="text-heading text-sm d-block">Delivery by 6:15am</span>
-                        <a href="shop.html" class="btn btn-main-two rounded-pill py-6 px-16 text-12 mt-8">$5 off Snack & Candy</a>
+                        <a href="shop.html" class="btn btn-main-two rounded-pill py-6 px-16 text-12 mt-8">Rp5 off Snack & Candy</a>
                     </div>
                     <div class="vendor-card__list mt-22 flex-center flex-wrap gap-8">
                         <div class="vendor-card__item bg-white rounded-circle flex-center">
@@ -4542,7 +4545,7 @@
                             <div class="product-card__content">
                                 <div class="product-card__price mb-16">
                                     <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
-                                    <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                                    <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                                 </div>
                                 <div class="flex-align gap-6">
                                     <span class="text-xs fw-bold text-gray-600">4.8</span>
@@ -4587,7 +4590,7 @@
                             <div class="product-card__content">
                                 <div class="product-card__price mb-16">
                                     <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
-                                    <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                                    <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                                 </div>
                                 <div class="flex-align gap-6">
                                     <span class="text-xs fw-bold text-gray-600">4.8</span>
@@ -4632,7 +4635,7 @@
                             <div class="product-card__content">
                                 <div class="product-card__price mb-16">
                                     <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
-                                    <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                                    <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                                 </div>
                                 <div class="flex-align gap-6">
                                     <span class="text-xs fw-bold text-gray-600">4.8</span>
@@ -4677,7 +4680,7 @@
                             <div class="product-card__content">
                                 <div class="product-card__price mb-16">
                                     <span class="text-gray-400 text-md fw-semibold text-decoration-line-through"> Rp28.99</span>
-                                    <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                                    <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                                 </div>
                                 <div class="flex-align gap-6">
                                     <span class="text-xs fw-bold text-gray-600">4.8</span>
@@ -4811,7 +4814,7 @@
                        <div class="flex-between gap-8 mt-24 flex-wrap">
                            <div class="product-card__price">
                                 <span class="text-gray-400 text-md fw-semibold text-decoration-line-through d-block"> Rp28.99</span>
-                                <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                                <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                             </div>
                            <a href="cart.html" class="product-card__cart btn bg-main-50 text-main-600 hover-bg-main-600 hover-text-white py-11 px-24 rounded-pill flex-align gap-8">
                                 Add <i class="ph ph-shopping-cart"></i> 
@@ -4842,7 +4845,7 @@
                        <div class="flex-between gap-8 mt-24 flex-wrap">
                            <div class="product-card__price">
                                 <span class="text-gray-400 text-md fw-semibold text-decoration-line-through d-block"> Rp28.99</span>
-                                <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                                <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                             </div>
                            <a href="cart.html" class="product-card__cart btn bg-main-50 text-main-600 hover-bg-main-600 hover-text-white py-11 px-24 rounded-pill flex-align gap-8">
                                 Add <i class="ph ph-shopping-cart"></i> 
@@ -4873,7 +4876,7 @@
                        <div class="flex-between gap-8 mt-24 flex-wrap">
                            <div class="product-card__price">
                                 <span class="text-gray-400 text-md fw-semibold text-decoration-line-through d-block"> Rp28.99</span>
-                                <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                                <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                             </div>
                            <a href="cart.html" class="product-card__cart btn bg-main-50 text-main-600 hover-bg-main-600 hover-text-white py-11 px-24 rounded-pill flex-align gap-8">
                                 Add <i class="ph ph-shopping-cart"></i> 
@@ -4904,7 +4907,7 @@
                        <div class="flex-between gap-8 mt-24 flex-wrap">
                            <div class="product-card__price">
                                 <span class="text-gray-400 text-md fw-semibold text-decoration-line-through d-block"> Rp28.99</span>
-                                <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                                <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                             </div>
                            <a href="cart.html" class="product-card__cart btn bg-main-50 text-main-600 hover-bg-main-600 hover-text-white py-11 px-24 rounded-pill flex-align gap-8">
                                 Add <i class="ph ph-shopping-cart"></i> 
@@ -4935,7 +4938,7 @@
                        <div class="flex-between gap-8 mt-24 flex-wrap">
                            <div class="product-card__price">
                                 <span class="text-gray-400 text-md fw-semibold text-decoration-line-through d-block"> Rp28.99</span>
-                                <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                                <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                             </div>
                            <a href="cart.html" class="product-card__cart btn bg-main-50 text-main-600 hover-bg-main-600 hover-text-white py-11 px-24 rounded-pill flex-align gap-8">
                                 Add <i class="ph ph-shopping-cart"></i> 
@@ -4966,7 +4969,7 @@
                        <div class="flex-between gap-8 mt-24 flex-wrap">
                            <div class="product-card__price">
                                 <span class="text-gray-400 text-md fw-semibold text-decoration-line-through d-block"> Rp28.99</span>
-                                <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                                <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                             </div>
                            <a href="cart.html" class="product-card__cart btn bg-main-50 text-main-600 hover-bg-main-600 hover-text-white py-11 px-24 rounded-pill flex-align gap-8">
                                 Add <i class="ph ph-shopping-cart"></i> 
@@ -4997,7 +5000,7 @@
                        <div class="flex-between gap-8 mt-24 flex-wrap">
                            <div class="product-card__price">
                                 <span class="text-gray-400 text-md fw-semibold text-decoration-line-through d-block"> Rp28.99</span>
-                                <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                                <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                             </div>
                            <a href="cart.html" class="product-card__cart btn bg-main-50 text-main-600 hover-bg-main-600 hover-text-white py-11 px-24 rounded-pill flex-align gap-8">
                                 Add <i class="ph ph-shopping-cart"></i> 
@@ -5036,8 +5039,8 @@
                                         <a href="product-details.html" class="link text-line-1">Taylor Farms Broccoli Florets Vegetables</a>
                                     </h6>
                                     <div class="product-card__price flex-align gap-8">
-                                        <span class="text-heading text-md fw-semibold d-block">$1500.00</span>
-                                        <span class="text-gray-400 text-md fw-semibold d-block">$1500.00</span>
+                                        <span class="text-heading text-md fw-semibold d-block">Rp1500.00</span>
+                                        <span class="text-gray-400 text-md fw-semibold d-block">Rp1500.00</span>
                                     </div>
                                 </div>
                             </div>
@@ -5055,8 +5058,8 @@
                                         <a href="product-details.html" class="link text-line-1">Taylor Farms Broccoli Florets Vegetables</a>
                                     </h6>
                                     <div class="product-card__price flex-align gap-8">
-                                        <span class="text-heading text-md fw-semibold d-block">$1500.00</span>
-                                        <span class="text-gray-400 text-md fw-semibold d-block">$1500.00</span>
+                                        <span class="text-heading text-md fw-semibold d-block">Rp1500.00</span>
+                                        <span class="text-gray-400 text-md fw-semibold d-block">Rp1500.00</span>
                                     </div>
                                 </div>
                             </div>
@@ -5074,8 +5077,8 @@
                                         <a href="product-details.html" class="link text-line-1">Taylor Farms Broccoli Florets Vegetables</a>
                                     </h6>
                                     <div class="product-card__price flex-align gap-8">
-                                        <span class="text-heading text-md fw-semibold d-block">$1500.00</span>
-                                        <span class="text-gray-400 text-md fw-semibold d-block">$1500.00</span>
+                                        <span class="text-heading text-md fw-semibold d-block">Rp1500.00</span>
+                                        <span class="text-gray-400 text-md fw-semibold d-block">Rp1500.00</span>
                                     </div>
                                 </div>
                             </div>
@@ -5093,8 +5096,8 @@
                                         <a href="product-details.html" class="link text-line-1">Taylor Farms Broccoli Florets Vegetables</a>
                                     </h6>
                                     <div class="product-card__price flex-align gap-8">
-                                        <span class="text-heading text-md fw-semibold d-block">$1500.00</span>
-                                        <span class="text-gray-400 text-md fw-semibold d-block">$1500.00</span>
+                                        <span class="text-heading text-md fw-semibold d-block">Rp1500.00</span>
+                                        <span class="text-gray-400 text-md fw-semibold d-block">Rp1500.00</span>
                                     </div>
                                 </div>
                             </div>
@@ -5114,8 +5117,8 @@
                                         <a href="product-details.html" class="link text-line-1">Taylor Farms Broccoli Florets Vegetables</a>
                                     </h6>
                                     <div class="product-card__price flex-align gap-8">
-                                        <span class="text-heading text-md fw-semibold d-block">$1500.00</span>
-                                        <span class="text-gray-400 text-md fw-semibold d-block">$1500.00</span>
+                                        <span class="text-heading text-md fw-semibold d-block">Rp1500.00</span>
+                                        <span class="text-gray-400 text-md fw-semibold d-block">Rp1500.00</span>
                                     </div>
                                 </div>
                             </div>
@@ -5133,8 +5136,8 @@
                                         <a href="product-details.html" class="link text-line-1">Taylor Farms Broccoli Florets Vegetables</a>
                                     </h6>
                                     <div class="product-card__price flex-align gap-8">
-                                        <span class="text-heading text-md fw-semibold d-block">$1500.00</span>
-                                        <span class="text-gray-400 text-md fw-semibold d-block">$1500.00</span>
+                                        <span class="text-heading text-md fw-semibold d-block">Rp1500.00</span>
+                                        <span class="text-gray-400 text-md fw-semibold d-block">Rp1500.00</span>
                                     </div>
                                 </div>
                             </div>
@@ -5152,8 +5155,8 @@
                                         <a href="product-details.html" class="link text-line-1">Taylor Farms Broccoli Florets Vegetables</a>
                                     </h6>
                                     <div class="product-card__price flex-align gap-8">
-                                        <span class="text-heading text-md fw-semibold d-block">$1500.00</span>
-                                        <span class="text-gray-400 text-md fw-semibold d-block">$1500.00</span>
+                                        <span class="text-heading text-md fw-semibold d-block">Rp1500.00</span>
+                                        <span class="text-gray-400 text-md fw-semibold d-block">Rp1500.00</span>
                                     </div>
                                 </div>
                             </div>
@@ -5171,8 +5174,8 @@
                                         <a href="product-details.html" class="link text-line-1">Taylor Farms Broccoli Florets Vegetables</a>
                                     </h6>
                                     <div class="product-card__price flex-align gap-8">
-                                        <span class="text-heading text-md fw-semibold d-block">$1500.00</span>
-                                        <span class="text-gray-400 text-md fw-semibold d-block">$1500.00</span>
+                                        <span class="text-heading text-md fw-semibold d-block">Rp1500.00</span>
+                                        <span class="text-gray-400 text-md fw-semibold d-block">Rp1500.00</span>
                                     </div>
                                 </div>
                             </div>
@@ -5201,8 +5204,8 @@
                                         <a href="product-details.html" class="link text-line-1">Taylor Farms Broccoli Florets Vegetables</a>
                                     </h6>
                                     <div class="product-card__price flex-align gap-8">
-                                        <span class="text-heading text-md fw-semibold d-block">$1500.00</span>
-                                        <span class="text-gray-400 text-md fw-semibold d-block">$1500.00</span>
+                                        <span class="text-heading text-md fw-semibold d-block">Rp1500.00</span>
+                                        <span class="text-gray-400 text-md fw-semibold d-block">Rp1500.00</span>
                                     </div>
                                 </div>
                             </div>
@@ -5220,8 +5223,8 @@
                                         <a href="product-details.html" class="link text-line-1">Taylor Farms Broccoli Florets Vegetables</a>
                                     </h6>
                                     <div class="product-card__price flex-align gap-8">
-                                        <span class="text-heading text-md fw-semibold d-block">$1500.00</span>
-                                        <span class="text-gray-400 text-md fw-semibold d-block">$1500.00</span>
+                                        <span class="text-heading text-md fw-semibold d-block">Rp1500.00</span>
+                                        <span class="text-gray-400 text-md fw-semibold d-block">Rp1500.00</span>
                                     </div>
                                 </div>
                             </div>
@@ -5239,8 +5242,8 @@
                                         <a href="product-details.html" class="link text-line-1">Taylor Farms Broccoli Florets Vegetables</a>
                                     </h6>
                                     <div class="product-card__price flex-align gap-8">
-                                        <span class="text-heading text-md fw-semibold d-block">$1500.00</span>
-                                        <span class="text-gray-400 text-md fw-semibold d-block">$1500.00</span>
+                                        <span class="text-heading text-md fw-semibold d-block">Rp1500.00</span>
+                                        <span class="text-gray-400 text-md fw-semibold d-block">Rp1500.00</span>
                                     </div>
                                 </div>
                             </div>
@@ -5258,8 +5261,8 @@
                                         <a href="product-details.html" class="link text-line-1">Taylor Farms Broccoli Florets Vegetables</a>
                                     </h6>
                                     <div class="product-card__price flex-align gap-8">
-                                        <span class="text-heading text-md fw-semibold d-block">$1500.00</span>
-                                        <span class="text-gray-400 text-md fw-semibold d-block">$1500.00</span>
+                                        <span class="text-heading text-md fw-semibold d-block">Rp1500.00</span>
+                                        <span class="text-gray-400 text-md fw-semibold d-block">Rp1500.00</span>
                                     </div>
                                 </div>
                             </div>
@@ -5279,8 +5282,8 @@
                                         <a href="product-details.html" class="link text-line-1">Taylor Farms Broccoli Florets Vegetables</a>
                                     </h6>
                                     <div class="product-card__price flex-align gap-8">
-                                        <span class="text-heading text-md fw-semibold d-block">$1500.00</span>
-                                        <span class="text-gray-400 text-md fw-semibold d-block">$1500.00</span>
+                                        <span class="text-heading text-md fw-semibold d-block">Rp1500.00</span>
+                                        <span class="text-gray-400 text-md fw-semibold d-block">Rp1500.00</span>
                                     </div>
                                 </div>
                             </div>
@@ -5298,8 +5301,8 @@
                                         <a href="product-details.html" class="link text-line-1">Taylor Farms Broccoli Florets Vegetables</a>
                                     </h6>
                                     <div class="product-card__price flex-align gap-8">
-                                        <span class="text-heading text-md fw-semibold d-block">$1500.00</span>
-                                        <span class="text-gray-400 text-md fw-semibold d-block">$1500.00</span>
+                                        <span class="text-heading text-md fw-semibold d-block">Rp1500.00</span>
+                                        <span class="text-gray-400 text-md fw-semibold d-block">Rp1500.00</span>
                                     </div>
                                 </div>
                             </div>
@@ -5317,8 +5320,8 @@
                                         <a href="product-details.html" class="link text-line-1">Taylor Farms Broccoli Florets Vegetables</a>
                                     </h6>
                                     <div class="product-card__price flex-align gap-8">
-                                        <span class="text-heading text-md fw-semibold d-block">$1500.00</span>
-                                        <span class="text-gray-400 text-md fw-semibold d-block">$1500.00</span>
+                                        <span class="text-heading text-md fw-semibold d-block">Rp1500.00</span>
+                                        <span class="text-gray-400 text-md fw-semibold d-block">Rp1500.00</span>
                                     </div>
                                 </div>
                             </div>
@@ -5336,8 +5339,8 @@
                                         <a href="product-details.html" class="link text-line-1">Taylor Farms Broccoli Florets Vegetables</a>
                                     </h6>
                                     <div class="product-card__price flex-align gap-8">
-                                        <span class="text-heading text-md fw-semibold d-block">$1500.00</span>
-                                        <span class="text-gray-400 text-md fw-semibold d-block">$1500.00</span>
+                                        <span class="text-heading text-md fw-semibold d-block">Rp1500.00</span>
+                                        <span class="text-gray-400 text-md fw-semibold d-block">Rp1500.00</span>
                                     </div>
                                 </div>
                             </div>
@@ -5366,8 +5369,8 @@
                                         <a href="product-details.html" class="link text-line-1">Taylor Farms Broccoli Florets Vegetables</a>
                                     </h6>
                                     <div class="product-card__price flex-align gap-8">
-                                        <span class="text-heading text-md fw-semibold d-block">$1500.00</span>
-                                        <span class="text-gray-400 text-md fw-semibold d-block">$1500.00</span>
+                                        <span class="text-heading text-md fw-semibold d-block">Rp1500.00</span>
+                                        <span class="text-gray-400 text-md fw-semibold d-block">Rp1500.00</span>
                                     </div>
                                 </div>
                             </div>
@@ -5385,8 +5388,8 @@
                                         <a href="product-details.html" class="link text-line-1">Taylor Farms Broccoli Florets Vegetables</a>
                                     </h6>
                                     <div class="product-card__price flex-align gap-8">
-                                        <span class="text-heading text-md fw-semibold d-block">$1500.00</span>
-                                        <span class="text-gray-400 text-md fw-semibold d-block">$1500.00</span>
+                                        <span class="text-heading text-md fw-semibold d-block">Rp1500.00</span>
+                                        <span class="text-gray-400 text-md fw-semibold d-block">Rp1500.00</span>
                                     </div>
                                 </div>
                             </div>
@@ -5404,8 +5407,8 @@
                                         <a href="product-details.html" class="link text-line-1">Taylor Farms Broccoli Florets Vegetables</a>
                                     </h6>
                                     <div class="product-card__price flex-align gap-8">
-                                        <span class="text-heading text-md fw-semibold d-block">$1500.00</span>
-                                        <span class="text-gray-400 text-md fw-semibold d-block">$1500.00</span>
+                                        <span class="text-heading text-md fw-semibold d-block">Rp1500.00</span>
+                                        <span class="text-gray-400 text-md fw-semibold d-block">Rp1500.00</span>
                                     </div>
                                 </div>
                             </div>
@@ -5423,8 +5426,8 @@
                                         <a href="product-details.html" class="link text-line-1">Taylor Farms Broccoli Florets Vegetables</a>
                                     </h6>
                                     <div class="product-card__price flex-align gap-8">
-                                        <span class="text-heading text-md fw-semibold d-block">$1500.00</span>
-                                        <span class="text-gray-400 text-md fw-semibold d-block">$1500.00</span>
+                                        <span class="text-heading text-md fw-semibold d-block">Rp1500.00</span>
+                                        <span class="text-gray-400 text-md fw-semibold d-block">Rp1500.00</span>
                                     </div>
                                 </div>
                             </div>
@@ -5444,8 +5447,8 @@
                                         <a href="product-details.html" class="link text-line-1">Taylor Farms Broccoli Florets Vegetables</a>
                                     </h6>
                                     <div class="product-card__price flex-align gap-8">
-                                        <span class="text-heading text-md fw-semibold d-block">$1500.00</span>
-                                        <span class="text-gray-400 text-md fw-semibold d-block">$1500.00</span>
+                                        <span class="text-heading text-md fw-semibold d-block">Rp1500.00</span>
+                                        <span class="text-gray-400 text-md fw-semibold d-block">Rp1500.00</span>
                                     </div>
                                 </div>
                             </div>
@@ -5463,8 +5466,8 @@
                                         <a href="product-details.html" class="link text-line-1">Taylor Farms Broccoli Florets Vegetables</a>
                                     </h6>
                                     <div class="product-card__price flex-align gap-8">
-                                        <span class="text-heading text-md fw-semibold d-block">$1500.00</span>
-                                        <span class="text-gray-400 text-md fw-semibold d-block">$1500.00</span>
+                                        <span class="text-heading text-md fw-semibold d-block">Rp1500.00</span>
+                                        <span class="text-gray-400 text-md fw-semibold d-block">Rp1500.00</span>
                                     </div>
                                 </div>
                             </div>
@@ -5482,8 +5485,8 @@
                                         <a href="product-details.html" class="link text-line-1">Taylor Farms Broccoli Florets Vegetables</a>
                                     </h6>
                                     <div class="product-card__price flex-align gap-8">
-                                        <span class="text-heading text-md fw-semibold d-block">$1500.00</span>
-                                        <span class="text-gray-400 text-md fw-semibold d-block">$1500.00</span>
+                                        <span class="text-heading text-md fw-semibold d-block">Rp1500.00</span>
+                                        <span class="text-gray-400 text-md fw-semibold d-block">Rp1500.00</span>
                                     </div>
                                 </div>
                             </div>
@@ -5501,8 +5504,8 @@
                                         <a href="product-details.html" class="link text-line-1">Taylor Farms Broccoli Florets Vegetables</a>
                                     </h6>
                                     <div class="product-card__price flex-align gap-8">
-                                        <span class="text-heading text-md fw-semibold d-block">$1500.00</span>
-                                        <span class="text-gray-400 text-md fw-semibold d-block">$1500.00</span>
+                                        <span class="text-heading text-md fw-semibold d-block">Rp1500.00</span>
+                                        <span class="text-gray-400 text-md fw-semibold d-block">Rp1500.00</span>
                                     </div>
                                 </div>
                             </div>
@@ -5531,8 +5534,8 @@
                                         <a href="product-details.html" class="link text-line-1">Taylor Farms Broccoli Florets Vegetables</a>
                                     </h6>
                                     <div class="product-card__price flex-align gap-8">
-                                        <span class="text-heading text-md fw-semibold d-block">$1500.00</span>
-                                        <span class="text-gray-400 text-md fw-semibold d-block">$1500.00</span>
+                                        <span class="text-heading text-md fw-semibold d-block">Rp1500.00</span>
+                                        <span class="text-gray-400 text-md fw-semibold d-block">Rp1500.00</span>
                                     </div>
                                 </div>
                             </div>
@@ -5550,8 +5553,8 @@
                                         <a href="product-details.html" class="link text-line-1">Taylor Farms Broccoli Florets Vegetables</a>
                                     </h6>
                                     <div class="product-card__price flex-align gap-8">
-                                        <span class="text-heading text-md fw-semibold d-block">$1500.00</span>
-                                        <span class="text-gray-400 text-md fw-semibold d-block">$1500.00</span>
+                                        <span class="text-heading text-md fw-semibold d-block">Rp1500.00</span>
+                                        <span class="text-gray-400 text-md fw-semibold d-block">Rp1500.00</span>
                                     </div>
                                 </div>
                             </div>
@@ -5569,8 +5572,8 @@
                                         <a href="product-details.html" class="link text-line-1">Taylor Farms Broccoli Florets Vegetables</a>
                                     </h6>
                                     <div class="product-card__price flex-align gap-8">
-                                        <span class="text-heading text-md fw-semibold d-block">$1500.00</span>
-                                        <span class="text-gray-400 text-md fw-semibold d-block">$1500.00</span>
+                                        <span class="text-heading text-md fw-semibold d-block">Rp1500.00</span>
+                                        <span class="text-gray-400 text-md fw-semibold d-block">Rp1500.00</span>
                                     </div>
                                 </div>
                             </div>
@@ -5588,8 +5591,8 @@
                                         <a href="product-details.html" class="link text-line-1">Taylor Farms Broccoli Florets Vegetables</a>
                                     </h6>
                                     <div class="product-card__price flex-align gap-8">
-                                        <span class="text-heading text-md fw-semibold d-block">$1500.00</span>
-                                        <span class="text-gray-400 text-md fw-semibold d-block">$1500.00</span>
+                                        <span class="text-heading text-md fw-semibold d-block">Rp1500.00</span>
+                                        <span class="text-gray-400 text-md fw-semibold d-block">Rp1500.00</span>
                                     </div>
                                 </div>
                             </div>
@@ -5609,8 +5612,8 @@
                                         <a href="product-details.html" class="link text-line-1">Taylor Farms Broccoli Florets Vegetables</a>
                                     </h6>
                                     <div class="product-card__price flex-align gap-8">
-                                        <span class="text-heading text-md fw-semibold d-block">$1500.00</span>
-                                        <span class="text-gray-400 text-md fw-semibold d-block">$1500.00</span>
+                                        <span class="text-heading text-md fw-semibold d-block">Rp1500.00</span>
+                                        <span class="text-gray-400 text-md fw-semibold d-block">Rp1500.00</span>
                                     </div>
                                 </div>
                             </div>
@@ -5628,8 +5631,8 @@
                                         <a href="product-details.html" class="link text-line-1">Taylor Farms Broccoli Florets Vegetables</a>
                                     </h6>
                                     <div class="product-card__price flex-align gap-8">
-                                        <span class="text-heading text-md fw-semibold d-block">$1500.00</span>
-                                        <span class="text-gray-400 text-md fw-semibold d-block">$1500.00</span>
+                                        <span class="text-heading text-md fw-semibold d-block">Rp1500.00</span>
+                                        <span class="text-gray-400 text-md fw-semibold d-block">Rp1500.00</span>
                                     </div>
                                 </div>
                             </div>
@@ -5647,8 +5650,8 @@
                                         <a href="product-details.html" class="link text-line-1">Taylor Farms Broccoli Florets Vegetables</a>
                                     </h6>
                                     <div class="product-card__price flex-align gap-8">
-                                        <span class="text-heading text-md fw-semibold d-block">$1500.00</span>
-                                        <span class="text-gray-400 text-md fw-semibold d-block">$1500.00</span>
+                                        <span class="text-heading text-md fw-semibold d-block">Rp1500.00</span>
+                                        <span class="text-gray-400 text-md fw-semibold d-block">Rp1500.00</span>
                                     </div>
                                 </div>
                             </div>
@@ -5666,8 +5669,8 @@
                                         <a href="product-details.html" class="link text-line-1">Taylor Farms Broccoli Florets Vegetables</a>
                                     </h6>
                                     <div class="product-card__price flex-align gap-8">
-                                        <span class="text-heading text-md fw-semibold d-block">$1500.00</span>
-                                        <span class="text-gray-400 text-md fw-semibold d-block">$1500.00</span>
+                                        <span class="text-heading text-md fw-semibold d-block">Rp1500.00</span>
+                                        <span class="text-gray-400 text-md fw-semibold d-block">Rp1500.00</span>
                                     </div>
                                 </div>
                             </div>
@@ -5780,7 +5783,7 @@
                         <div class="flex-between gap-8 mt-24 flex-wrap">
                             <div class="product-card__price">
                                 <span class="text-gray-400 text-md fw-semibold text-decoration-line-through d-block"> Rp28.99</span>
-                                <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                                <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                             </div>
                             <a href="cart.html" class="product-card__cart btn btn-main py-11 px-24 rounded-pill flex-align gap-8">
                                 Add <i class="ph ph-shopping-cart"></i> 
@@ -5811,7 +5814,7 @@
                         <div class="flex-between gap-8 mt-24 flex-wrap">
                             <div class="product-card__price">
                                 <span class="text-gray-400 text-md fw-semibold text-decoration-line-through d-block"> Rp28.99</span>
-                                <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                                <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                             </div>
                             <a href="cart.html" class="product-card__cart btn btn-main py-11 px-24 rounded-pill flex-align gap-8">
                                 Add <i class="ph ph-shopping-cart"></i> 
@@ -5842,7 +5845,7 @@
                         <div class="flex-between gap-8 mt-24 flex-wrap">
                             <div class="product-card__price">
                                 <span class="text-gray-400 text-md fw-semibold text-decoration-line-through d-block"> Rp28.99</span>
-                                <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                                <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                             </div>
                             <a href="cart.html" class="product-card__cart btn btn-main py-11 px-24 rounded-pill flex-align gap-8">
                                 Add <i class="ph ph-shopping-cart"></i> 
@@ -5873,7 +5876,7 @@
                         <div class="flex-between gap-8 mt-24 flex-wrap">
                             <div class="product-card__price">
                                 <span class="text-gray-400 text-md fw-semibold text-decoration-line-through d-block"> Rp28.99</span>
-                                <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                                <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                             </div>
                             <a href="cart.html" class="product-card__cart btn btn-main py-11 px-24 rounded-pill flex-align gap-8">
                                 Add <i class="ph ph-shopping-cart"></i> 
@@ -5904,7 +5907,7 @@
                         <div class="flex-between gap-8 mt-24 flex-wrap">
                             <div class="product-card__price">
                                 <span class="text-gray-400 text-md fw-semibold text-decoration-line-through d-block"> Rp28.99</span>
-                                <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                                <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                             </div>
                             <a href="cart.html" class="product-card__cart btn btn-main py-11 px-24 rounded-pill flex-align gap-8">
                                 Add <i class="ph ph-shopping-cart"></i> 
@@ -5935,7 +5938,7 @@
                         <div class="flex-between gap-8 mt-24 flex-wrap">
                             <div class="product-card__price">
                                 <span class="text-gray-400 text-md fw-semibold text-decoration-line-through d-block"> Rp28.99</span>
-                                <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                                <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                             </div>
                             <a href="cart.html" class="product-card__cart btn btn-main py-11 px-24 rounded-pill flex-align gap-8">
                                 Add <i class="ph ph-shopping-cart"></i> 
@@ -5966,7 +5969,7 @@
                         <div class="flex-between gap-8 mt-24 flex-wrap">
                             <div class="product-card__price">
                                 <span class="text-gray-400 text-md fw-semibold text-decoration-line-through d-block"> Rp28.99</span>
-                                <span class="text-heading text-md fw-semibold ">$14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
+                                <span class="text-heading text-md fw-semibold ">Rp14.99 <span class="text-gray-500 fw-normal">/Qty</span> </span>
                             </div>
                             <a href="cart.html" class="product-card__cart btn btn-main py-11 px-24 rounded-pill flex-align gap-8">
                                 Add <i class="ph ph-shopping-cart"></i> 
@@ -6259,7 +6262,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 
-
+    @livewireScripts
 
     </body>
 </html>
